@@ -11,6 +11,7 @@ License:	Public Domain
 Group:		Sound
 URL:		http://modplug-xmms.sourceforge.net/
 Source:		http://prdownloads.sourceforge.net/modplug-xmms/%oname-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 Requires:	xmms >= 1.0.0
 Provides: modplug-xmms
 Obsoletes: modplug-xmms
