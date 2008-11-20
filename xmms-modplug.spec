@@ -1,7 +1,7 @@
 %define	name	xmms-modplug
 %define oname modplugxmms
 %define version 2.05
-%define release %mkrel 11
+%define release %mkrel 9
 
 Name:		%{name}
 Summary:	Modplug Plugin for XMMS
@@ -11,6 +11,7 @@ License:	Public Domain
 Group:		Sound
 URL:		http://modplug-xmms.sourceforge.net/
 Source:		http://prdownloads.sourceforge.net/modplug-xmms/%oname-%{version}.tar.bz2
+Patch: modplugxmms-2.05-fix-includes.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 Requires:	xmms >= 1.0.0
 Provides: modplug-xmms
@@ -26,6 +27,7 @@ found at http://www.modplug.com
 
 %prep
 %setup -q -n %oname-%{version}
+%patch -p1
 
 %build
 %configure2_5x
