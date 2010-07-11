@@ -1,7 +1,7 @@
 %define	name	xmms-modplug
 %define oname modplugxmms
 %define version 2.05
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name:		%{name}
 Summary:	Modplug Plugin for XMMS
