@@ -1,0 +1,23 @@
+diff -p -up modplugxmms-2.05/modplugxmms/archive/arch_gzip.h~ modplugxmms-2.05/modplugxmms/archive/arch_gzip.h
+--- modplugxmms-2.05/modplugxmms/archive/arch_gzip.h~	2003-04-22 03:20:31.000000000 +0200
++++ modplugxmms-2.05/modplugxmms/archive/arch_gzip.h	2008-11-20 14:25:33.000000000 +0100
+@@ -9,6 +9,7 @@
+ 
+ #include "archive.h"
+ #include <string>
++#include <cstring>
+ 
+ class arch_Gzip: public Archive
+ {
+diff -p -up modplugxmms-2.05/modplugxmms/archive/arch_rar.h~ modplugxmms-2.05/modplugxmms/archive/arch_rar.h
+--- modplugxmms-2.05/modplugxmms/archive/arch_rar.h~	2003-04-22 03:20:31.000000000 +0200
++++ modplugxmms-2.05/modplugxmms/archive/arch_rar.h	2008-11-20 14:28:04.000000000 +0100
+@@ -9,6 +9,8 @@
+ 
+ #include "archive.h"
+ #include <string>
++#include <cstring>
++#include <cstdlib>
+ 
+ class arch_Rar: public Archive
+ {
