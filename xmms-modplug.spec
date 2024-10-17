@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%{release}
 License:	Public Domain
 Group:		Sound
-URL:		http://modplug-xmms.sourceforge.net/
+URL:		https://modplug-xmms.sourceforge.net/
 Source:		http://prdownloads.sourceforge.net/modplug-xmms/%oname-%{version}.tar.bz2
 Patch: modplugxmms-2.05-fix-includes.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
