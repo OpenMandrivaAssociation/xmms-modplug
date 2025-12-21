@@ -16,6 +16,11 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 Requires:	xmms >= 1.0.0
 Provides: modplug-xmms
 Obsoletes: modplug-xmms
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libxmms-devel
 BuildRequires:  libmodplug-devel >= 1:0.7
 
